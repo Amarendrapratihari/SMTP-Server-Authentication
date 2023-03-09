@@ -6,8 +6,8 @@ import (
 )
 
 func SendEmail(to, subject, text, message string) error {
-	from := "amarendrapratihari03@gmail.com"
-	password := "fjqusevejkvdmpne"
+	from := "Your@gmail.com"
+	password := "Onetimepassword"
 	smtpHost := "smtp.gmail.com"
 	smtpPort := "587"
 
